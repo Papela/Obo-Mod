@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "obomod:blocks/xcalibur_onic_s_old_re_lock",
+    "particle": "obomod:blocks/xcalibur_onic_s_old_re_lock"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "discomusicaicono",
+    "name": "Musica Obo",
+    "description": "Cancion: The Spirit - Summer",
+    "creativeTab": {
+      "value": "CUSTOM:OBO"
+    },
+    "music": {
+      "value": "CUSTOM:musicaobo"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "musicaobo": {
+    "category": "music",
+    "subtitle": "subtitles.musicaobo",
+    "sounds": [
+      {
+        "name": "obomod:56qvd-ssjf8",
+        "stream": true
+      }
+    ]
+  }
+}

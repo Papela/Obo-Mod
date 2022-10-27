@@ -1,0 +1,40 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "obomod:obocoin"
+    },
+    "title": {
+      "translate": "advancements.primerobo.title"
+    },
+    "description": {
+      "translate": "advancements.primerobo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "primerobo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "obomod:obocoin",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "obomod:crafteo"
+    ]
+  }
+}

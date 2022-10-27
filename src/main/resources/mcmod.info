@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "obomod",
+    "name": "OboMod",
+    "description": "Mod oficial de Papela",
+    "version": "1.0.0",
+    "credits": "Created by: Papela",
+    "logoFile": "assets/obomod/textures/logo.png",
+    "mcversion": "1.12.2",
+    "url": "https://github.com/papela",
+    "updateUrl": "",
+    "authorList": [
+      "Markos, Papela"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

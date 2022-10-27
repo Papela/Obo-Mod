@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancements.eg_1.title"
+    },
+    "description": {
+      "translate": "advancements.eg_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eg_1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "obomod:primer_obo"
+}

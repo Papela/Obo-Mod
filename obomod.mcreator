@@ -1,0 +1,224 @@
+{
+  "mod_elements": [
+    {
+      "name": "OboCoin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "OBO",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "OboOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Crafteo",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "GiveoboCommandExecuted",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giveobo",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "PrimerObo",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Logrocrafteo",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Llogrocrafteo",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "EasterEgg1",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EG1",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "OboBillete",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obo_billete"
+    },
+    {
+      "name": "GoldForOboTrade",
+      "type": "villagertrade",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_for_obo_trade"
+    },
+    {
+      "name": "Musica",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musica"
+    },
+    {
+      "name": "CreatorCredit",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creator_credit"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "musicaobo",
+      "files": [
+        "56qvd-ssjf8"
+      ],
+      "category": "music",
+      "subtitle": "Musica Obo (TheSpirit - Summer)"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.primer_obo.descr": "Has conseguido tu primer Obo Coin",
+      "item.obomod.musica": "Musica Obo",
+      "item.obomod.musica.desc": "Cancion: The Spirit - Summer",
+      "advancements.llogrocrafteo.descr": "Has conseguido crear un Obo Coin",
+      "item.obomod.obo_billete": "Obo Billete",
+      "advancements.primerobo.title": "Primer Obo Coin",
+      "tile.oboore.name": "Mena de Obo",
+      "advancements.eg1.descr": "Has encontrado un Easter Egg!",
+      "subtitles.b": "The Spirit",
+      "subtitles.a": "",
+      "item.obomod.obo_coin": "Obo Coin",
+      "subtitles.musicaobo": "Musica Obo (TheSpirit - Summer)",
+      "advancements.eg_1.title": "Easter Egg",
+      "advancements.eg_1.descr": "Has encontrado un Easter Egg!",
+      "item.obocoin.name": "Obo Coin",
+      "advancements.llogrocrafteo.title": "Ingresos Pasivos",
+      "itemGroup.tabobo": "OBO",
+      "advancements.primer_obo.title": "Primer Obo Coin",
+      "advancements.primerobo.descr": "Has conseguido tu primer Obo Coin",
+      "advancements.eg1.title": "Easter Egg",
+      "subtitles.obomusic": "The Spirit",
+      "block.obomod.obo_ore": "Mena de Obo"
+    },
+    "es_es": {
+      "advancements.primer_obo.descr": "Has conseguido tu primer Obo Coin",
+      "item.obomod.musica": "Musica",
+      "item.obomod.musica.desc": "The Spirit Summer",
+      "advancements.llogrocrafteo.descr": "Has conseguido crear un Obo Coin",
+      "item.obomod.obo_billete": "Obo Billete",
+      "advancements.primerobo.title": "Primer Obo",
+      "tile.oboore.name": "Mena de Obo",
+      "advancements.eg1.descr": "Has encontrado un Easter Egg!",
+      "subtitles.b": "",
+      "subtitles.a": "",
+      "item.obomod.obo_coin": "Obo Coin",
+      "subtitles.musicaobo": "Musica Obo (TheSpirit - Summer)",
+      "advancements.eg_1.title": "Easter Egg",
+      "advancements.eg_1.descr": "Has encontrado un Easter Egg!",
+      "item.obocoin.name": "Obo Coin",
+      "advancements.llogrocrafteo.title": "Ingresos Pasivos",
+      "itemGroup.tabobo": "OBO",
+      "advancements.primer_obo.title": "Primer Obo Coin",
+      "advancements.primerobo.descr": "Has conseguido tu primer Obo Coin",
+      "advancements.eg1.title": "Easter Egg",
+      "subtitles.obomusic": "The Spirit",
+      "block.obomod.obo_ore": "Mena de Obo"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "obomod",
+    "modName": "OboMod",
+    "version": "1.1.0",
+    "description": "Obo Mod V1.1.0 - 1.18.2",
+    "author": "Papela, Markos",
+    "websiteURL": "https://github.com/papela",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/Papela/OboMod/main/updates",
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created by: Papela",
+    "modElementsPackage": "net.papela.obomod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
